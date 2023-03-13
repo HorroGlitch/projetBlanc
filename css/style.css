@@ -1,4 +1,4 @@
-#entête {
+.entête {
     background-color: #4F5D75;
     width: 100%;
     height: 100px;
@@ -6,12 +6,12 @@
 
 #bonApp {
     position: absolute;
-    display:flex;
+    display: flex;
     text-transform: uppercase;
     color: white;
     font-family: 'Righteous', cursive;
     margin-left: 15%;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 #Plats {
@@ -36,11 +36,71 @@
     font-family: 'Lato', sans-serif;
 }
 
-#buttonDarkMode{
+#buttonDarkMode {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     background-color: #2d3142;
     color: #EAEBEB;
     border-radius: 5px;
     margin-left: 80%;
+}
+
+#nosAbonnementsTitre {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+#tableauPrix{
+    margin-left: 10%;
+}
+
+
+.abonnements{
+    border: solid #EAEBEB;
+    background-color: #4F5D75;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.nbrParSemaine{
+    border: solid #EAEBEB;
+    background-color: #ffffff;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: #2d3142;
+    font-family: 'Lato', sans-serif;
+}
+
+.prix{
+    border: solid #EAEBEB;
+    background-color: #4F5D75;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+/* .articleBlog{
+    box-shadow: 1px 0px 23px 1px black;
+    width: 50%;
+    height: 100px;
+} */
+
+.blogText{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.blogImg{
+    margin-left: 25%;
+    width: 50%;
+    height: 100px;
+    align-items: center;
 }
