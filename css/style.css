@@ -1,0 +1,46 @@
+#entête {
+    background-color: #4F5D75;
+    width: 100%;
+    height: 100px;
+}
+
+#bonApp {
+    position: absolute;
+    display:flex;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Righteous', cursive;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+#Plats {
+    color: #EAEBEB;
+    margin-left: 55%;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+#Blog {
+    color: #EAEBEB;
+    margin-left: 55%;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+#Contact {
+    color: #EAEBEB;
+    margin-left: 55%;
+    margin-right: 20%;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+#buttonDarkMode{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    background-color: #2d3142;
+    color: #EAEBEB;
+    border-radius: 5px;
+    margin-left: 80%;
+}
