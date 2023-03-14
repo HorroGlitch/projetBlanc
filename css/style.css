@@ -86,11 +86,35 @@
     color: white;
     font-family: 'Lato', sans-serif;
 }
-/* .articleBlog{
+.articleBlog1{
     box-shadow: 1px 0px 23px 1px black;
     width: 50%;
     height: 100px;
-} */
+}
+
+.articleBlog2{
+    box-shadow: 1px 0px 23px 1px black;
+    width: 50%;
+    height: 100px;
+}
+
+.articleBlog3{
+    box-shadow: 1px 0px 23px 1px black;
+    width: 50%;
+    height: 100px;
+}
+
+.articleBlog4{
+    box-shadow: 1px 0px 23px 1px black;
+    width: 50%;
+    height: 100px;
+}
+
+.articleBlog5{
+    box-shadow: 1px 0px 23px 1px black;
+    width: 50%;
+    height: 100px;
+}
 
 .blogText{
     text-align: center;
@@ -102,7 +126,7 @@
     margin-left: 25%;
     width: 50%;
     height: 100px;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .formulaireDeContact{
@@ -119,11 +143,17 @@
 }
 
 #lienEdenSchool{
-    color: white;
+    color: rgb(223, 42, 42);
     font-family: 'Lato', sans-serif;
     text-decoration: none;
     margin-top: 5%;
 }
+
+#textEdenSchool{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
 
 #informationDeContact{
     color: white;
@@ -184,6 +214,16 @@
     height: 70px;
 }
 
+#cryptageDuMessage{
+    color: #EAEBEB;;
+    font-family: 'Lato', sans-serif;
+}
+
+#cryptage{
+    border-radius: 8px;
+    height: 25px;
+}
+
 @media screen and (min-width: 680px){
     .entête {
         background-color: #4F5D75;
@@ -201,24 +241,30 @@
     }
 
     #Plats {
+        position: absolute;
         color: #EAEBEB;
         margin-left: 55%;
         text-transform: uppercase;
         font-family: 'Lato', sans-serif;
+        margin-top: 3%;
     }
     
     #Blog {
+        position: absolute;
         color: #EAEBEB;
         margin-left: 65%;
         text-transform: uppercase;
         font-family: 'Lato', sans-serif;
+        margin-top: 3%;
     }
     
     #Contact {
+        position: absolute;
         color: #EAEBEB;
         margin-left: 75%;
         text-transform: uppercase;
         font-family: 'Lato', sans-serif;
+        margin-top: 3%;
     }
 
     #nosAbonnementsTitre {
@@ -232,10 +278,43 @@
        margin-left: 28%;
     }
 
-    .blogImg{
-        margin-left: 25%;
+    .articleBlog1{
+        box-shadow: 1px 0px 23px 1px black;
         width: 50%;
         height: 100px;
-        align-items: center;
+        margin-left: 10%;
     }
+    
+    .articleBlog2{
+        box-shadow: 1px 0px 23px 1px black;
+        width: 50%;
+        height: 100px;
+    }
+    
+    .articleBlog3{
+        box-shadow: 1px 0px 23px 1px black;
+        width: 50%;
+        height: 100px;
+    }
+    
+    .articleBlog4{
+        box-shadow: 1px 0px 23px 1px black;
+        width: 50%;
+        height: 100px;
+    }
+    
+    .articleBlog5{
+        box-shadow: 1px 0px 23px 1px black;
+        width: 50%;
+        height: 100px;
+    }
+
+    .choisissezUnJeu{
+        display: flex;
+        color: #EAEBEB;;
+        font-family: 'Lato', sans-serif;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    
 }
