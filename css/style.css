@@ -104,3 +104,138 @@
     height: 100px;
     align-items: center;
 }
+
+.formulaireDeContact{
+    width: 100%;
+    height: 600px;
+    background-color: #4F5D75;
+    text-align: center;
+}
+
+#formulaireDeContactTitre{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+#lienEdenSchool{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin-top: 5%;
+}
+
+#informationDeContact{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+#age{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.differentAges{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.nom{
+    border-radius: 5px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.mail{
+    border-radius: 5px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+#votreJeuPrefere{
+    color: #EAEBEB;;
+    font-family: 'Lato', sans-serif;
+    white-space:normal;
+    justify-content: space-between;
+}
+
+.choisissezUneConsole{
+    display: flex;
+    color: #EAEBEB;;
+    font-family: 'Lato', sans-serif;
+    justify-content: space-between;
+}
+
+.choisissezUnJeu{
+    color: #EAEBEB;
+    font-family: 'Lato', sans-serif;
+}
+
+#votreMessage{
+    color: #EAEBEB;;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+#message{
+    border-radius: 8px;
+    width: 250px;
+    height: 70px;
+}
+
+@media screen and (min-width: 680px){
+    .entête {
+        background-color: #4F5D75;
+        width: 100%;
+        height: 70px;
+    } 
+    #bonApp {
+        position: absolute;
+        display: flex;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Righteous', cursive;
+        margin-left: 16%;
+        margin-top: 3%;
+    }
+
+    #Plats {
+        color: #EAEBEB;
+        margin-left: 55%;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    #Blog {
+        color: #EAEBEB;
+        margin-left: 65%;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    #Contact {
+        color: #EAEBEB;
+        margin-left: 75%;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+    }
+
+    #nosAbonnementsTitre {
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        margin-top: 5%;
+    }
+
+    #tableauPrix{
+       margin-left: 28%;
+    }
+
+    .blogImg{
+        margin-left: 25%;
+        width: 50%;
+        height: 100px;
+        align-items: center;
+    }
+}
